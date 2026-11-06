@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Daniel Gosling — music, website and Circus Audio." />
+  <meta property="og:title" content="Daniel Gosling" />
+  <meta property="og:description" content="Music from Minas Gerais." />
+  <meta property="og:image" content="https://danielgosling.vercel.app/hero.jpg" />
+  <title>Daniel Gosling · Links</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    .links-page{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;align-items:center;padding:48px 16px 32px}
+    .links-card{width:100%;max-width:440px;display:flex;flex-direction:column;flex:1}
+    .links-name{font-family:'Space Grotesk',sans-serif;font-weight:500;font-size:clamp(52px,16vw,76px);line-height:.8;letter-spacing:-.08em;margin:12vh 0 40px}
+    .links-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+    .links-list a{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:58px;padding:0 18px;border:1px solid var(--line);font:500 12px 'Space Grotesk',sans-serif;letter-spacing:.12em;text-transform:uppercase;transition:background .2s ease,color .2s ease,border-color .2s ease}
+    .links-list a span{opacity:.55;font-size:10px;text-align:right}
+    .links-list a{white-space:nowrap}
+    .links-list a:hover,.links-list a:focus-visible{background:var(--bone);color:var(--black);border-color:var(--bone)}
+    .links-list a:focus-visible{outline:2px solid var(--acid);outline-offset:2px}
+    .links-list a.circus{background:var(--flamingo);border-color:var(--flamingo);color:var(--ink-deep)}
+    .links-list a.circus span{opacity:.7}
+    .links-list a.circus:hover,.links-list a.circus:focus-visible{background:#f46a95;border-color:#f46a95}
+    .links-foot{margin-top:auto;padding-top:40px;font:10px 'Space Grotesk',sans-serif;letter-spacing:.12em;text-transform:uppercase;opacity:.45}
+  </style>
+</head>
+<body>
+  <div class="noise"></div><div class="scanlines"></div>
+  <main class="links-page">
+    <div class="links-card">
+      <h1 class="links-name">MY<br>LINKS</h1>
+      <ul class="links-list">
+        <li><a class="circus" href="https://circusaudio.com.au/" target="_blank" rel="noreferrer">Circus Audio <span>Clown Filter is free ↗</span></a></li>
+        <li><a href="/">Website <span>danielgosling.vercel.app</span></a></li>
+        <li><a href="https://open.spotify.com/artist/3JkfaXHFbz45ao1ZzLhbFI" target="_blank" rel="noreferrer">Spotify <span>↗</span></a></li>
+        <li><a href="https://music.apple.com/au/artist/daniel-gosling/1661173169" target="_blank" rel="noreferrer">Apple Music <span>↗</span></a></li>
+      </ul>
+      <p class="links-foot">Daniel Gosling · Brazil → Australia</p>
+    </div>
+  </main>
+</body>
+</html>
